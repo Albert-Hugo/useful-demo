@@ -6,6 +6,7 @@ package com.example.cglib;
  */
 public class EnhancerTest {
     //new enhance
+    //te
 
     public static class SampleClass {
         public String test(String input) {
