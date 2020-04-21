@@ -73,6 +73,7 @@ public class Tester {
         EnhancerTest.SampleClass proxy = (EnhancerTest.SampleClass) enhancer.create();
         assertEquals("Hello cglib!", proxy.test(null));
         assertNotEquals("Hello cglib!", proxy.toString());
+        //fix
         proxy.hashCode(); // Does not throw an exception or result in an endless loop.
     }
 
